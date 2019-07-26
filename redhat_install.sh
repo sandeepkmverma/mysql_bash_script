@@ -1,4 +1,5 @@
 #!/bin/bash
+redhat_install(){
 yum -y update
 yum -y install wget
 wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
@@ -11,3 +12,4 @@ mysql -u root <<-EOF
 UPDATE mysql.user SET Password=PASSWORD('sandeep') WHERE User='root';
 FLUSH PRIVILEGES;
 EOF
+}

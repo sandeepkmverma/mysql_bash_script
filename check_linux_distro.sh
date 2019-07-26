@@ -1,5 +1,5 @@
 #!/bin/bash
-linux_dis_check(){
+check_linux_distro(){
 
 if ! which apt &> /dev/null
 then 
@@ -11,6 +11,5 @@ then
 else
 	echo "System not specified"
 fi
-
 
 }
