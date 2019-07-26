@@ -1,11 +1,10 @@
 #!/bin/bash
+source CentOS_Install_Configure/redhat_install.sh
+source CentOS_Install_Configure/redhat_install_secure.sh
 source check_install_mysql.sh
 source check_linux_distro.sh
-source debain_install_secure.sh
-source debain_install.sh
-source mysql_start.sh
-source redhat_install_secure.sh
-source redhat_install.sh
+source Debian_Install_Configure/debain_install_secure.sh
+source Debian_Install_Configure/debain_install.sh
 
 main(){
 
