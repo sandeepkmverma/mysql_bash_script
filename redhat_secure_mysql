@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+mysql_secure_installation <<EOF
+sandeep
+y
+sanny
+sanny
+y
+y
+y
+y
+EOF
